@@ -28,6 +28,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 3px 10px;
+    padding-right: 30px;
     /* position: fixed; */
 }
 
@@ -47,6 +48,8 @@ body {
 .search-container {
     display: flex;
     align-items: center;
+    flex: 0 1 685px;
+    margin-left: 40px;
 }
 
 .search-container form {
@@ -63,10 +66,10 @@ body {
     display: flex;
     align-items: center;
     background-color: rgb(36, 34, 34);
-    padding: 10px;
+    padding: 12px;
     color: #fff;
     font-size: 18px;
-    border-color: #000;
+    /* border-color: #000; */
     /* position: relative; */
 
 }
@@ -90,7 +93,7 @@ body {
 
 .mic-icon {
     height: 40px;
-    width: 40px;
+    min-width: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
