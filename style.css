@@ -28,7 +28,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 3px 10px;
-    padding-right: 30px;
+    /* padding-right: 30px; */
     /* position: fixed; */
 }
 
@@ -194,4 +194,29 @@ body {
     width: 100%;
 }
 
+@media(max-width: 799px){
+    .header{
+        width:50%;
+    }
+    /* .logo-container{
+        width:1px;
+    } */
+     .offcanvas{
+        width:50px;
+     }
+
+     form{ 
+        display: none;
+     }
+     .profile-container{
+        display: none;
+     }
+}
+ @media(max-width:800px){
+     .search-container{
+        padding-left: 75% ;
+     }
+    
+
+}
 
